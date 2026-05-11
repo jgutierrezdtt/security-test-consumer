@@ -4,4 +4,4 @@ on:
     branches: [main]
 jobs:
   hello:
-    uses: ./.github/workflows/reusable/say-hello.yml
+    uses: ./.github/workflows/say-hello.yml
