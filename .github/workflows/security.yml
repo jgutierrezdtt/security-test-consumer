@@ -16,7 +16,7 @@ permissions:
 jobs:
   semgrep:
     name: Semgrep SAST
-    uses: jgutierrezdtt/security-platform/.github/workflows/reusable/semgrep-scan.yml@main
+    uses: jgutierrezdtt/security-platform/.github/workflows/reusable-semgrep-scan.yml@main
     permissions:
       contents: read
       security-events: write
@@ -30,7 +30,7 @@ jobs:
 
   dependabot-check:
     name: Dependabot Check
-    uses: jgutierrezdtt/security-platform/.github/workflows/reusable/dependabot-check.yml@main
+    uses: jgutierrezdtt/security-platform/.github/workflows/reusable-dependabot-check.yml@main
     permissions:
       contents: read
       security-events: write
