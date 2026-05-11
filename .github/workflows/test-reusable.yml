@@ -6,7 +6,7 @@ permissions:
   contents: read
 jobs:
   hello:
-    uses: jgutierrezdtt/security-platform/.github/workflows/reusable/test-hello.yml@main
+    uses: jgutierrezdtt/security-platform/.github/workflows/reusable/test-hello.yml@e28e0169f89fcf19a8d69fa11633a09c56a0a77c
     with:
       message: "Hello from security-test-consumer!"
     secrets: inherit
