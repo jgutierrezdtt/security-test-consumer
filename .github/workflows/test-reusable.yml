@@ -1,7 +1,7 @@
-name: Test Reusable Call (Hello)
+name: Test Intra-Repo Reusable
 on:
   push:
     branches: [main]
 jobs:
   hello:
-    uses: jgutierrezdtt/security-platform/.github/workflows/reusable/test-hello.yml@main
+    uses: ./.github/workflows/reusable/say-hello.yml
