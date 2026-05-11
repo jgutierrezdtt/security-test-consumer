@@ -6,3 +6,4 @@ Contiene vulnerabilidades intencionales en `src/app.py` y dependencias vulnerabl
 para verificar que los workflows de Semgrep y Dependabot funcionan correctamente.
 
 # test trigger Mon May 11 08:17:28 CEST 2026
+# trigger
