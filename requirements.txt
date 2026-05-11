@@ -5,4 +5,4 @@ PyYAML==5.3.1
 # Dependencia con licencia problemática para Semgrep/licencias
 # pylgpl es LGPL — puede ser conflictivo con código propietario
 # chardet tiene licencia LGPL también
-chardet==3.0.4
+chardet==7.4.3
