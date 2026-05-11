@@ -1,0 +1,13 @@
+name: Test Reusable Call
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  security-events: write
+  pull-requests: write
+  issues: write
+jobs:
+  semgrep:
+    uses: jgutierrezdtt/security-platform/.github/workflows/reusable/semgrep-scan.yml@main
+    secrets: inherit
