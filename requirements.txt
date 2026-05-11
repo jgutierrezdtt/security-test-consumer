@@ -1,0 +1,8 @@
+# Dependencias con vulnerabilidades conocidas para probar Dependabot alerts
+requests==2.25.0
+cryptography==3.4.8
+PyYAML==5.3.1
+# Dependencia con licencia problemática para Semgrep/licencias
+# pylgpl es LGPL — puede ser conflictivo con código propietario
+# chardet tiene licencia LGPL también
+chardet==3.0.4
