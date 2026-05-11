@@ -1,5 +1,5 @@
 # Dependencias con vulnerabilidades conocidas para probar Dependabot alerts
-requests==2.25.0
+requests==2.34.0
 cryptography==3.4.8
 PyYAML==5.3.1
 # Dependencia con licencia problemática para Semgrep/licencias
